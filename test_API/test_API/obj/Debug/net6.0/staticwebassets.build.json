@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "Hash": "Dm5PHZMKmaftaXwlqCmCyYrJd2xLqmzibrJurOYWhJg=",
+  "Source": "test_API",
+  "BasePath": "_content/test_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\El Oualydy Chadia\\.nuget\\packages\\quick.aspnetcore.components.web.extensions\\6.0.2\\staticwebassets\\headManager.js",
+      "SourceId": "Quick.AspNetCore.Components.Web.Extensions",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\El Oualydy Chadia\\.nuget\\packages\\quick.aspnetcore.components.web.extensions\\6.0.2\\staticwebassets\\",
+      "BasePath": "_content/Quick.AspNetCore.Components.Web.Extensions",
+      "RelativePath": "headManager.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\El Oualydy Chadia\\.nuget\\packages\\quick.aspnetcore.components.web.extensions\\6.0.2\\staticwebassets\\headManager.js"
+    }
+  ]
+}

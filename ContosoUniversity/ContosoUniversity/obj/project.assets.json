@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ContosoUniversityModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ContosoUniversityModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContosoUniversityModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContosoUniversityModel/1.0.0": {
+      "type": "project",
+      "path": "../../ContosoUniversityModel/ContosoUniversityModel.csproj",
+      "msbuildProject": "../../ContosoUniversityModel/ContosoUniversityModel.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ContosoUniversityModel >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\El Oualydy Chadia\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\El Oualydy Chadia\\Desktop\\chadia GINF3\\kamechnoue\\projet\\ProjectBlazorASP.NETCoreAPI\\ContosoUniversity_Project\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectName": "ContosoUniversity",
+      "projectPath": "C:\\Users\\El Oualydy Chadia\\Desktop\\chadia GINF3\\kamechnoue\\projet\\ProjectBlazorASP.NETCoreAPI\\ContosoUniversity_Project\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
+      "packagesPath": "C:\\Users\\El Oualydy Chadia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\El Oualydy Chadia\\Desktop\\chadia GINF3\\kamechnoue\\projet\\ProjectBlazorASP.NETCoreAPI\\ContosoUniversity_Project\\ContosoUniversity\\ContosoUniversity\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\El Oualydy Chadia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\El Oualydy Chadia\\Desktop\\chadia GINF3\\kamechnoue\\projet\\ProjectBlazorASP.NETCoreAPI\\ContosoUniversity_Project\\ContosoUniversityModel\\ContosoUniversityModel.csproj": {
+              "projectPath": "C:\\Users\\El Oualydy Chadia\\Desktop\\chadia GINF3\\kamechnoue\\projet\\ProjectBlazorASP.NETCoreAPI\\ContosoUniversity_Project\\ContosoUniversityModel\\ContosoUniversityModel.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

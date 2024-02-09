@@ -1,0 +1,60 @@
+﻿@page "/FormateurList"
+
+<div class="container mt-4">
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger">
+            @errorMessage
+        </div>
+    }
+    <div class="mt-4">
+        <h5>@(selectedFormateur != null && selectedFormateur.ID != 0 ? "Modifier le Formateur" : "Ajouter un Formateur")</h5>
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="nomFormateur" class="form-label">Nom : </label>
+                        <input type="text" class="form-control" id="nomFormateur" @bind="selectedFormateur.Nom" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="prenomFormateur" class="form-label">Prenom :</label>
+                        <input type="text" class="form-control" id="prenomFormateur" @bind="selectedFormateur.Prenom" />
+                    </div>
+                    <button type="button" class="btn btn-primary" @onclick="SaveChanges">@((selectedFormateur != null && selectedFormateur.ID != 0) ? "Enregistrer" : "Ajouter")</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">Liste des Formateurs</h5>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Nom</th>
+                            <th scope="col">Prenom</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in formateurs)
+                        {
+                            <tr>
+                                <td>@item.Nom</td>
+                                <td>@item.Prenom</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm" @onclick="() => EditFormateur(item.ID)">Modifier</button>
+                                    <button class="btn btn-danger btn-sm" @onclick="() => DeleteFormateur(item.ID)">Supprimer</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
